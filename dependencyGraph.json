@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1513096051000,
+  "timestamp": 1513099287537,
   "graph": {
     "options": {
       "directed": true,
@@ -117,6 +117,18 @@
         }
       },
       {
+        "v": "00-atoms/images/logo-ecv.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/images/logo-ecvdigital.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "00-atoms/images/mini-event.mustache",
         "value": {
           "compileState": "clean",
@@ -133,11 +145,27 @@
         }
       },
       {
+        "v": "00-atoms/images/picto-contenu.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-blocks-participer-contenu/01-molecules-blocks-participer-contenu.rendered.html",
+          "lineagePattern": "molecules-participer-contenu"
+        }
+      },
+      {
         "v": "00-atoms/images/picto-eyes.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-blocks-btn-eyes/01-molecules-blocks-btn-eyes.rendered.html",
           "lineagePattern": "molecules-btn-eyes"
+        }
+      },
+      {
+        "v": "00-atoms/images/picto-newletter.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-blocks-newsletter/01-molecules-blocks-newsletter.rendered.html",
+          "lineagePattern": "molecules-newsletter"
         }
       },
       {
@@ -242,6 +270,28 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-00-global-mini-articles/02-organisms-00-global-mini-articles.rendered.html",
           "lineagePattern": "organisms-mini-articles"
+        }
+      },
+      {
+        "v": "01-molecules/blocks/newsletter-contenu.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/blocks/newsletter.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-blocks-newsletter-contenu/01-molecules-blocks-newsletter-contenu.rendered.html",
+          "lineagePattern": "molecules-newsletter-contenu"
+        }
+      },
+      {
+        "v": "01-molecules/blocks/participer-contenu.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-blocks-newsletter-contenu/01-molecules-blocks-newsletter-contenu.rendered.html",
+          "lineagePattern": "molecules-newsletter-contenu"
         }
       },
       {
@@ -575,6 +625,26 @@
       {
         "v": "01-molecules/blocks/miniature-webd.mustache",
         "w": "00-atoms/text/paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/blocks/participer-contenu.mustache",
+        "w": "00-atoms/images/picto-contenu.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/blocks/newsletter.mustache",
+        "w": "00-atoms/images/picto-newletter.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/blocks/newsletter-contenu.mustache",
+        "w": "01-molecules/blocks/participer-contenu.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/blocks/newsletter-contenu.mustache",
+        "w": "01-molecules/blocks/newsletter.mustache",
         "value": {}
       },
       {
